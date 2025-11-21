@@ -19,7 +19,7 @@ jobs:
           sonar_token: ${{ secrets.SONAR_TOKEN }}
           sonar_host_url: ${{ secrets.SONAR_HOST_URL }}
           sonar_organization_id: ${{ secrets.SONAR_ORG_ID }}
-          accuknox_endpoint: "https://app.demo.accuknox.com"
+          accuknox_endpoint: "https://app.demo.accuknox.com/"
           accuknox_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY2MzA5MjAzLCJqdGkiOiJmMzBiNjY1OTQ1ODk0Y2IxOGY0MjljNjAzMjQyN2RjZSIsInRlbmFudC1pZCI6ODAyMCwiaXNzIjoiY3NwbS5kZW1vLmFjY3Vrbm94LmNvbSJ9.aG3KWCE1aPFzmHH-NxlJvlXPaEL86v87BF29MlA4sx_4VyR6lC4ac03kbhY_b01sCo7PkMtIEEKvpQBRVYni2UsW1UZMupjYi4wD1K9ty-xOzf3qte4zWzCclF84NBf9qznqNmzJ_BReYq9SE-j32CVLrMyCsAQYRYczup1ZmQoyc2_Pd1kavQJtNQYGwcDarVapECK8Pg7Wl4g36NvQJggNqRCYU6WuEFI4I63VN6U0VrKfA2G-Y28fyg_E8gLuaNvZAKkYavMqIkMWtxpv-5mrszdT-TJWCek0GXmr49piZ09h5VkHZUXFsPm0Ew39LIb9G8Tlr9CaEBmR1bZlDw"
           accuknox_label: ${{ secrets.ACCUKNOX_LABEL }}
           soft_fail: false
